@@ -1,0 +1,58 @@
+.App {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: blue;
+}
+.information{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  align-items: center;
+  margin-left: 25%;
+  background-color: rgb(183, 166, 230);
+}
+.information input{
+  width: 200px;
+  height: 30px;
+}
+button{
+  width: 200px;
+  height: 30px;
+  margin: 10px;
+  font-size: 15px;
+  background-color: rgb(13, 247, 21);
+  border-radius: 5px;
+  border: 1px solid black;
+}
+button:hover{
+  cursor: pointer;
+}
+.books{
+  background-color: grey;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #dddddd;
+}
